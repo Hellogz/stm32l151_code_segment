@@ -45,7 +45,7 @@ void tim3_encoder_configration(void)
   // 设置TIM3为编码模式1, 编码器值x2
   TIM_EncoderInterfaceConfig(TIM3, TIM_EncoderMode_TI1, TIM_ICPolarity_Falling, TIM_ICPolarity_Falling);
   TIM_ICStructInit(&TIM_ICInitStructure);    // 初始化
-  TIM_ICInitStructure.TIM_ICFilter = 15;
+  TIM_ICInitStructure.TIM_ICFilter = 15;    // 0～15 值越大，抗干扰越强。
   TIM_ICInit(TIM3, &TIM_ICInitStructure);
 
   //Reset counter
