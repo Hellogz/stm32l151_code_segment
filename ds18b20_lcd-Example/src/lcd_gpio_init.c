@@ -1,0 +1,62 @@
+/* Includes ------------------------------------------------------------------*/
+#include "stm32l1xx.h"
+
+void gpio_init(void)
+{
+  RCC->AHBENR |= (RCC_AHBENR_GPIOAEN|RCC_AHBENR_GPIOBEN|RCC_AHBENR_GPIOCEN);
+  GPIOA->MODER |= 0x802A00A8;
+  GPIOB->MODER |= 0xAAAA0A80;
+  GPIOC->MODER |= 0x00AAA0AA;
+  GPIOA->OTYPER &=  ~0x0000870E;
+  GPIOB->OTYPER &=  ~0x0000FF38;
+  GPIOC->OTYPER &=  ~0x00000FCF;
+  GPIOA->PUPDR &= ~0xC03F00FC;
+  GPIOB->PUPDR &= ~0xFFFF0FC0;
+  GPIOC->PUPDR &= ~0x00FFF0FF;
+  GPIOA->OSPEEDR &= ~0xC03F00FC;
+  GPIOB->OSPEEDR &= ~0xFFFF0FC0;
+  GPIOC->OSPEEDR &= ~0xFFFFF0FF;
+  
+  GPIOA->AFR[0] |= 0x0000BBB0;
+  GPIOA->AFR[1] |= 0xB0000BBB;
+  GPIOB->AFR[0] |= 0x00BBB000;
+  GPIOB->AFR[1] |= 0xBBBBBBBB;
+  GPIOC->AFR[0] |= 0xBB00BBBB;
+  GPIOC->AFR[1] |= 0x0000BBBB;
+}
+
+void lcd_init(void)
+{
+  RCC->APB1ENR |= RCC_APB1ENR_PWREN|RCC_APB1ENR_LCDEN; 
+  PWR->CR |= PWR_CR_DBP; 
+  RCC->CSR |= RCC_CSR_RTCRST; 
+  RCC->CSR &= ~RCC_CSR_RTCRST; 
+  RCC->CSR |= RCC_CSR_LSEON; 
+  while(!(RCC->CSR&RCC_CSR_LSERDY)); 
+  RCC->CSR |= RCC_CSR_RTCSEL_LSE; 
+   
+  LCD->CR &= ~LCD_CR_BIAS; 
+  LCD->CR |= LCD_CR_BIAS_1; 
+  
+  LCD->CR &=~LCD_CR_DUTY; 
+  LCD->CR |= LCD_CR_DUTY_0|LCD_CR_DUTY_1;
+  
+  LCD->CR |= LCD_CR_MUX_SEG; 
+  
+  LCD->FCR &= ~LCD_FCR_PS; 
+  LCD->FCR |= (1<<24); 
+  
+  LCD->FCR &= ~LCD_FCR_DIV; 
+  LCD->FCR |= (1<<18); 
+  
+  LCD->FCR &= ~LCD_FCR_CC;  
+  LCD->FCR |= LCD_FCR_CC_1; 
+  
+  while(!(LCD->SR&LCD_SR_FCRSR)); 
+  
+  LCD->CR &= ~LCD_CR_VSEL; 
+    
+  LCD->CR |= LCD_CR_LCDEN; 
+  while(!(LCD->SR&LCD_SR_RDY)); 
+  while(!(LCD->SR&LCD_SR_ENS)); 
+}

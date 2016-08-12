@@ -1,0 +1,547 @@
+# depslib dependency file v1.0
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\misc.c
+	"misc.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\misc.h
+	"stm32l1xx.h"
+
+1412523295 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\inc\stm32l1xx.h
+	"core_cm3.h"
+	"system_stm32l1xx.h"
+	<stdint.h>
+	"stm32l1xx_conf.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1412523295 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\inc\system_stm32l1xx.h
+
+1412523295 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\inc\stm32l1xx_conf.h
+	"stm32l1xx_adc.h"
+	"stm32l1xx_aes.h"
+	"stm32l1xx_comp.h"
+	"stm32l1xx_crc.h"
+	"stm32l1xx_dac.h"
+	"stm32l1xx_dbgmcu.h"
+	"stm32l1xx_dma.h"
+	"stm32l1xx_exti.h"
+	"stm32l1xx_flash.h"
+	"stm32l1xx_fsmc.h"
+	"stm32l1xx_gpio.h"
+	"stm32l1xx_i2c.h"
+	"stm32l1xx_iwdg.h"
+	"stm32l1xx_lcd.h"
+	"stm32l1xx_opamp.h"
+	"stm32l1xx_pwr.h"
+	"stm32l1xx_rcc.h"
+	"stm32l1xx_rtc.h"
+	"stm32l1xx_sdio.h"
+	"stm32l1xx_spi.h"
+	"stm32l1xx_syscfg.h"
+	"stm32l1xx_tim.h"
+	"stm32l1xx_usart.h"
+	"stm32l1xx_wwdg.h"
+	"misc.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_adc.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_aes.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_comp.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_crc.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_dac.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_dbgmcu.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_dma.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_exti.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_flash.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_fsmc.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_gpio.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_i2c.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_iwdg.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_lcd.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_opamp.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_pwr.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_rcc.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_rtc.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_sdio.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_spi.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_syscfg.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_tim.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_usart.h
+	"stm32l1xx.h"
+
+1412523296 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\inc\stm32l1xx_wwdg.h
+	"stm32l1xx.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_adc.c
+	"stm32l1xx_adc.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_aes.c
+	"stm32l1xx_aes.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_aes_util.c
+	"stm32l1xx_aes.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_comp.c
+	"stm32l1xx_comp.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_crc.c
+	"stm32l1xx_crc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_dac.c
+	"stm32l1xx_dac.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_dbgmcu.c
+	"stm32l1xx_dbgmcu.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_dma.c
+	"stm32l1xx_dma.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_exti.c
+	"stm32l1xx_exti.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_flash.c
+	"stm32l1xx_flash.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_flash_ramfunc.c
+	"stm32l1xx_flash.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_fsmc.c
+	"stm32l1xx_fsmc.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_gpio.c
+	"stm32l1xx_gpio.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_i2c.c
+	"stm32l1xx_i2c.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_iwdg.c
+	"stm32l1xx_iwdg.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_lcd.c
+	"stm32l1xx_lcd.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_opamp.c
+	"stm32l1xx_opamp.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_pwr.c
+	"stm32l1xx_pwr.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_rcc.c
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_rtc.c
+	"stm32l1xx_rtc.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_sdio.c
+	"stm32l1xx_sdio.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_spi.c
+	"stm32l1xx_spi.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_syscfg.c
+	"stm32l1xx_syscfg.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_tim.c
+	"stm32l1xx_tim.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_usart.c
+	"stm32l1xx_usart.h"
+	"stm32l1xx_rcc.h"
+
+1412523296 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\spl\src\stm32l1xx_wwdg.c
+	"stm32l1xx_wwdg.h"
+	"stm32l1xx_rcc.h"
+
+1412194970 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\db18b20.c
+	"ds18b20.h"
+	"stm32l1xx_rcc.h"
+	"stm32l1xx_gpio.h"
+
+1412191496 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\ds18b20.h
+	"stm32l1xx.h"
+	"stm32l1xx_rcc.h"
+	"stm32l1xx_gpio.h"
+
+1412606401 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\main.c
+	"stm32l1xx_conf.h"
+	"stm32l1xx.h"
+	"lcd_gpio_init.h"
+	"stm32l_discovery_lcd.h"
+	"stdio.h"
+
+1412523295 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\startup_stm32l1xx_md.s
+
+1412523295 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\system_stm32l1xx.c
+	"stm32l1xx.h"
+
+1326509536 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\lcd_gpio_init.c
+	"stm32l1xx.h"
+
+1411832658 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\stm32l1xx_conf.h
+	"stm32l1xx_adc.h"
+	"stm32l1xx_gpio.h"
+	"stm32l1xx_syscfg.h"
+	"stm32l1xx_lcd.h"
+	"stm32l1xx_rcc.h"
+	"misc.h"
+
+1326509596 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\lcd_gpio_init.h
+
+1304667216 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\stm32l_discovery_lcd.h
+	"stm32l1xx.h"
+	"discover_board.h"
+
+1304667210 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\discover_board.h
+	"stm32l1xx.h"
+	"stm32l1xx_gpio.h"
+	"stm32l1xx_conf.h"
+
+1337793959 source:e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\stm32l_discovery_lcd.c
+	"stm32l_discovery_lcd.h"
+	"discover_board.h"
+	"stm32l1xx_lcd.h"
+	"discover_functions.h"
+
+1304668688 e:\stm\programs\em_blocks_proekt\ds18b20_lcd\src\discover_functions.h
+	"stm32l1xx.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\misc.c
+	"misc.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\misc.h
+	"stm32l1xx.h"
+
+1412505295 c:\users\hellogz\desktop\ds18b20_lcd\inc\stm32l1xx.h
+	"core_cm3.h"
+	"system_stm32l1xx.h"
+	<stdint.h>
+	"stm32l1xx_conf.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1412505295 c:\users\hellogz\desktop\ds18b20_lcd\inc\system_stm32l1xx.h
+
+1412505295 c:\users\hellogz\desktop\ds18b20_lcd\inc\stm32l1xx_conf.h
+	"stm32l1xx_adc.h"
+	"stm32l1xx_aes.h"
+	"stm32l1xx_comp.h"
+	"stm32l1xx_crc.h"
+	"stm32l1xx_dac.h"
+	"stm32l1xx_dbgmcu.h"
+	"stm32l1xx_dma.h"
+	"stm32l1xx_exti.h"
+	"stm32l1xx_flash.h"
+	"stm32l1xx_fsmc.h"
+	"stm32l1xx_gpio.h"
+	"stm32l1xx_i2c.h"
+	"stm32l1xx_iwdg.h"
+	"stm32l1xx_lcd.h"
+	"stm32l1xx_opamp.h"
+	"stm32l1xx_pwr.h"
+	"stm32l1xx_rcc.h"
+	"stm32l1xx_rtc.h"
+	"stm32l1xx_sdio.h"
+	"stm32l1xx_spi.h"
+	"stm32l1xx_syscfg.h"
+	"stm32l1xx_tim.h"
+	"stm32l1xx_usart.h"
+	"stm32l1xx_wwdg.h"
+	"misc.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_adc.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_aes.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_comp.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_crc.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_dac.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_dbgmcu.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_dma.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_exti.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_flash.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_fsmc.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_gpio.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_i2c.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_iwdg.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_lcd.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_opamp.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_pwr.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_rcc.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_rtc.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_sdio.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_spi.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_syscfg.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_tim.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_usart.h
+	"stm32l1xx.h"
+
+1412505296 c:\users\hellogz\desktop\ds18b20_lcd\spl\inc\stm32l1xx_wwdg.h
+	"stm32l1xx.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_adc.c
+	"stm32l1xx_adc.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_aes.c
+	"stm32l1xx_aes.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_aes_util.c
+	"stm32l1xx_aes.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_comp.c
+	"stm32l1xx_comp.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_crc.c
+	"stm32l1xx_crc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_dac.c
+	"stm32l1xx_dac.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_dbgmcu.c
+	"stm32l1xx_dbgmcu.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_dma.c
+	"stm32l1xx_dma.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_exti.c
+	"stm32l1xx_exti.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_flash.c
+	"stm32l1xx_flash.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_flash_ramfunc.c
+	"stm32l1xx_flash.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_fsmc.c
+	"stm32l1xx_fsmc.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_gpio.c
+	"stm32l1xx_gpio.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_i2c.c
+	"stm32l1xx_i2c.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_iwdg.c
+	"stm32l1xx_iwdg.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_lcd.c
+	"stm32l1xx_lcd.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_opamp.c
+	"stm32l1xx_opamp.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_pwr.c
+	"stm32l1xx_pwr.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_rcc.c
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_rtc.c
+	"stm32l1xx_rtc.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_sdio.c
+	"stm32l1xx_sdio.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_spi.c
+	"stm32l1xx_spi.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_syscfg.c
+	"stm32l1xx_syscfg.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_tim.c
+	"stm32l1xx_tim.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_usart.c
+	"stm32l1xx_usart.h"
+	"stm32l1xx_rcc.h"
+
+1412505296 source:c:\users\hellogz\desktop\ds18b20_lcd\spl\src\stm32l1xx_wwdg.c
+	"stm32l1xx_wwdg.h"
+	"stm32l1xx_rcc.h"
+
+1470995544 source:c:\users\hellogz\desktop\ds18b20_lcd\src\db18b20.c
+	"ds18b20.h"
+	"stm32l1xx_rcc.h"
+	"stm32l1xx_gpio.h"
+
+1470995715 c:\users\hellogz\desktop\ds18b20_lcd\src\ds18b20.h
+	"stm32l1xx.h"
+	"stm32l1xx_rcc.h"
+	"stm32l1xx_gpio.h"
+
+1326487936 source:c:\users\hellogz\desktop\ds18b20_lcd\src\lcd_gpio_init.c
+	"stm32l1xx.h"
+
+1412602115 source:c:\users\hellogz\desktop\ds18b20_lcd\src\main.c
+	"stm32l1xx_conf.h"
+	"stm32l1xx.h"
+	"lcd_gpio_init.h"
+	"stm32l_discovery_lcd.h"
+	"stdio.h"
+
+1411814658 c:\users\hellogz\desktop\ds18b20_lcd\src\stm32l1xx_conf.h
+	"stm32l1xx_adc.h"
+	"stm32l1xx_gpio.h"
+	"stm32l1xx_syscfg.h"
+	"stm32l1xx_lcd.h"
+	"stm32l1xx_rcc.h"
+	"misc.h"
+
+1326487996 c:\users\hellogz\desktop\ds18b20_lcd\src\lcd_gpio_init.h
+
+1304649216 c:\users\hellogz\desktop\ds18b20_lcd\src\stm32l_discovery_lcd.h
+	"stm32l1xx.h"
+	"discover_board.h"
+
+1304649210 c:\users\hellogz\desktop\ds18b20_lcd\src\discover_board.h
+	"stm32l1xx.h"
+	"stm32l1xx_gpio.h"
+	"stm32l1xx_conf.h"
+
+1412505295 source:c:\users\hellogz\desktop\ds18b20_lcd\src\startup_stm32l1xx_md.s
+
+1337775959 source:c:\users\hellogz\desktop\ds18b20_lcd\src\stm32l_discovery_lcd.c
+	"stm32l_discovery_lcd.h"
+	"discover_board.h"
+	"stm32l1xx_lcd.h"
+	"discover_functions.h"
+
+1304650688 c:\users\hellogz\desktop\ds18b20_lcd\src\discover_functions.h
+	"stm32l1xx.h"
+
+1412505295 source:c:\users\hellogz\desktop\ds18b20_lcd\src\system_stm32l1xx.c
+	"stm32l1xx.h"
+
