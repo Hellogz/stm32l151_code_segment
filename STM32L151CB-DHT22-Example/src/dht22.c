@@ -1,6 +1,8 @@
 #include "dht22.h"
 
-#define SENSOR_OUTPUT_HIGH_VALUE	40	// use 16MHz clock is 20, 32MHz clock is 40!!!Release must set 40, debug set 20 is work
+// the value must printf dt[42] value and look, set SENSOR_OUTPUT_HIGH_VALUE between the maximum and minimum values
+// for example max: 100 min: 50 so the value set to 60.
+#define SENSOR_OUTPUT_HIGH_VALUE	40	
 
 uint16_t read_cycle(uint16_t cur_tics, uint8_t neg_tic){
 	uint16_t cnt_tics;
